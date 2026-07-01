@@ -63,7 +63,7 @@ const SymposiumPage = () => {
                     <td className="px-5 py-5 border-b theme-border theme-bg-secondary text-sm text-right">
                       {programme.year === '2025' ? (
                         <a
-                          href="/Book_of_Abstracts_2025.pdf"
+                          href="/bookOfAbstracts/Book_of_Abstracts_2025.pdf"
                           download
                           className="theme-text-accent hover:opacity-80 font-semibold"
                         >

@@ -175,7 +175,9 @@ export default function Home() {
                   an informal setting.
                 </p>
                 <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
-                  The 8th YoungAGErs Symposium was held in Berlin, organised by <span className="font-semibold text-blue-600 dark:text-blue-400">Tatjana Rueger</span>, <span className="font-semibold text-blue-600 dark:text-blue-400">Kai Scholten</span>, and <span className="font-semibold text-blue-600 dark:text-blue-400">Leon Bork</span>.
+                  This year marks the 10 year anniversary of Young AGErs. For this, we would like to invite you to the place where it all started.
+                  We are happy to share with you the official registration form for the 9th Young AGErs Symposium 2026, which will be held on October 1st and 2nd in Dresden. The deadline for registration is August 1st, 2026, and the deadline for submitting an abstract is September 1st, 2026.
+                  Find here the <a href="/registration/Registration_form_Young_AGErs_Symposium_2026.pdf" download className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline font-semibold">registration form</a> and the <a href="/registration/Template_Abstract_2026.docx" download className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline font-semibold">abstract template</a>.
                 </p>
                 <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
                   Browse our <a href="/gallery" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline font-semibold">photo gallery</a> to see impressions and highlights from past symposia, or explore the detailed programs and abstracts below to learn more about the content and structure of each event.
@@ -204,7 +206,7 @@ export default function Home() {
             <ScrollAnimation animationType="fade-up" delay="delay-200">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold theme-text-primary mb-4">Contact</h2>
-                <p className="text-lg theme-text-secondary max-w-3xl mx-auto">Interested in collaboration? We&apos;d love to hear from you!</p>
+                <p className="text-lg theme-text-secondary max-w-3xl mx-auto">Questions or comments? We&apos;d love to hear from you!</p>
               </div>
             </ScrollAnimation>
             <ScrollAnimation animationType="fade-up" delay="delay-300">
