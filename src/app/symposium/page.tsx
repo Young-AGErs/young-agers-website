@@ -10,8 +10,11 @@ const SymposiumPage = () => {
   const programmes = programmeFiles.map(file => {
     const yearMatch = file.match(/^(\d{4})/);
     const year = yearMatch ? yearMatch[1] : 'N/A';
+    const editionMatch = file.match(/(\d+(?:st|nd|rd|th))\s+Young AGErs/);
+    const edition = editionMatch ? editionMatch[1] : null;
     return {
       year,
+      edition,
       fileName: file,
       url: `/symposiumprogrammes/${file}`
     };
@@ -25,7 +28,7 @@ const SymposiumPage = () => {
 
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-lg text-center theme-text-secondary mb-6">
-            Welcome to the Symposium Programs page! Here, you can explore the programs from previous years and download the registration form for the upcoming Symposium 2025.
+            Welcome to the Symposium Programs page! Here, you can explore the programs of all past symposia and download the program of the upcoming 10th Young AGErs Symposium 2026 in Dresden.
           </p>
         </div>
 
@@ -50,6 +53,9 @@ const SymposiumPage = () => {
                   <tr key={programme.fileName}>
                     <td className="px-5 py-5 border-b theme-border theme-bg-secondary text-sm">
                       <p className="theme-text-primary whitespace-nowrap">{programme.year}</p>
+                      {programme.edition && (
+                        <p className="theme-text-muted whitespace-nowrap text-xs">{programme.edition}</p>
+                      )}
                     </td>
                     <td className="px-5 py-5 border-b theme-border theme-bg-secondary text-sm">
                       <a

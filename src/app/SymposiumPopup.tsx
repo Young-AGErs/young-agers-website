@@ -39,7 +39,7 @@ const SymposiumPopup = () => {
           </div>
           <div>
             <h3 className="text-lg font-bold theme-text-primary">
-              9th Young AGErs Symposium 2026
+              10th Young AGErs Symposium 2026
             </h3>
             <p className="text-sm theme-text-muted">
               10 year anniversary of Young AGErs
@@ -50,24 +50,22 @@ const SymposiumPopup = () => {
         <div className="space-y-1.5 text-sm theme-text-secondary mb-4">
           <p><span className="font-semibold theme-text-primary">Location:</span> Dresden</p>
           <p><span className="font-semibold theme-text-primary">Dates:</span> October 1st &ndash; 2nd, 2026</p>
-          <p><span className="font-semibold theme-text-primary">Registration deadline:</span> August 1st, 2026</p>
-          <p><span className="font-semibold theme-text-primary">Abstract deadline:</span> September 1st, 2026</p>
         </div>
 
         <div className="flex gap-3">
           <a
-            href="/registration/Registration_form_Young_AGErs_Symposium_2026.pdf"
-            download
+            href="/symposiumprogrammes/2026 10th Young AGErs Symposium - Agenda.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-md font-medium transition-colors"
           >
-            Registration Form
+            View Program
           </a>
           <a
-            href="/registration/Template_Abstract_2026.docx"
-            download
+            href="/symposium"
             className="inline-block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-sm px-4 py-2 rounded-md font-medium transition-colors"
           >
-            Abstract Template
+            All Programs
           </a>
         </div>
       </div>
