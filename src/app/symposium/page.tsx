@@ -28,7 +28,7 @@ const SymposiumPage = () => {
 
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-lg text-center theme-text-secondary mb-6">
-            Welcome to the Symposium Programs page! Here, you can explore the programs of all past symposia and download the program of the upcoming 10th Young AGErs Symposium 2026 in Dresden.
+            Welcome to the Symposium Programs page! Here, you can explore the programs of all past symposia and download the program of the upcoming 9th Young AGErs Symposium 2026 in Dresden.
           </p>
         </div>
 

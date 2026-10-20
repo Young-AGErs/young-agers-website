@@ -176,8 +176,8 @@ export default function Home() {
                 </p>
                 <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
                   This year marks the 10 year anniversary of Young AGErs. For this, we would like to invite you to the place where it all started.
-                  We are happy to share with you the program of the 10th Young AGErs Symposium 2026, which will be held on October 1st and 2nd in Dresden.
-                  Download the <a href="/symposiumprogrammes/2026 10th Young AGErs Symposium - Agenda.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline font-semibold">program of the 10th Young AGErs Symposium 2026 (PDF)</a>.
+                  We are happy to share with you the program of the 9th Young AGErs Symposium 2026, which will be held on October 1st and 2nd in Dresden.
+                  Download the <a href="/symposiumprogrammes/2026 9th Young AGErs Symposium - Agenda.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline font-semibold">program of the 9th Young AGErs Symposium 2026 (PDF)</a>.
                 </p>
                 <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
                   Browse our <a href="/gallery" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline font-semibold">photo gallery</a> to see impressions and highlights from past symposia, or explore the detailed programs and abstracts below to learn more about the content and structure of each event.
